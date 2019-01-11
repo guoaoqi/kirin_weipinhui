@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>唯品会</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<style>
+			body{
+				margin: 0px;
+			}
+			.banner{
+				width: 100%;
+			}
+			.item{
+				width: 20%;
+				height: 20%;
+			}
+			.item2{
+				width: 33%;
+			}
+			#div1,#div2,#div4,#div5{
+				display: flex;
+				align-items: center;
+				flex-wrap: wrap;
+			}
+			#div3
+			{
+				height: 20%;
+				padding-top: 20%;
+				padding-bottom: 10%;
+				background-image: url(img/mst_c75f4f7bc42d800100c1c53c2bfba2c9.jpg);
+				background-size: 100% 100%;
+			}
+		
+			.item3{
+				width: 100%;
+			}
+			#countdown{
+				text-align: center;
+			}
+			.cdspan{
+				color: white;
+				background-color: black;
+			}
+			.div4sub{
+				width: 25%;
+			}
+			.div4sub1{
+				display:flex;
+				text-align: center;
+				align-items: center;
+			}
+			.item3a{
+				width: 100px;
+				height: 20px;
+				color: white;
+				background-color: #DC347C;
+			}
+			.item3a1{
+				color: #C8CFCA;
+			}
+			#div5{
+				height: 100%;
+				padding-top: 15%;
+				margin-bottom: 15%;
+				background-image: url(img/mst_c3da2bbaaf5d3dd2e4501a21cf1a2e9a.jpg);
+				background-size: 100% 100%;
+			}
+			#div5a{
+				width: 33%;
+				height: 100%;
+				margin-top: 30px;
+				background-image: url(img/ias_154596216274296.jpg);
+				background-size: 100% 100%;
+			}
+			#div5b{
+				width: 33%;
+				height: 100%;
+				margin-top: 30px;
+				background-image: url(img/ias_154657929862930.jpg);
+				background-size: 100% 100%;
+			}
+			#div5c{
+				width: 33%;
+				height: 100%;
+				margin-top: 30px;
+				background-image: url(img/ias_154606347283556.jpg);
+				background-size: 100% 100%;
+			}
+			#item4a,#item4b,#item4c{
+				width: 60%;
+				margin-top:50%;
+				margin-left: 20%;
+			}
+			#div6,#div7,#div8,#div9a{
+			padding: 2%;	
+			background-color: #F0F2F1;
+			
+			}
+			#div6 img,#div7 img,#div8 img{
+				width: 100%;
+				border-top-left-radius: 20px;
+				border-top-right-radius: 20px;
+			}
+			#div6sub,#div7sub,#div8sub{
+				background-color: white;
+				padding-bottom: 1%;
+				border-radius: 20px;
+			}
+			.s1{
+				font-weight: bold;
+			}
+			.s2{
+				font-size: 8px;
+				color: #989898;
+			}
+			.s3{
+				font-size: 8px;
+				color: #CE4482;
+			}
+			.s4{
+				font-size: 8px;
+				color: #5E6265;
+			}
+			p{
+				padding-left: 2%;
+				padding-right: 2%;
+			}
+			.p1{
+				display:flex;
+				justify-content: space-between;
+			}
+			#div9{
+				padding: 2%;
+				background-color: white;
+				border-radius: 20px;
+			}
+			#div9sub{
+				display: flex;
+				flex-wrap: wrap;
+				align-items: center;
+				justify-content: space-around;
+			
+			}
+			#div9sub>div{
+				width: 26%;
+			}
+			#div9sub>div>img{
+				width: 100%;
+			}
+			#div9 p{
+				text-align: center;
+				color: #585C64;
+			}
+			#div9>p{
+				font-weight: bold;
+				font-size: 24px;
+				color: #000000;
+			}
+		</style>
+	</head>
+	<body>
+		<!--hello world! <br /> hello china! <br />-->
+		<!--             
+			html标签的分类：双标签，单标签
+						     块级元素(div),行级元素(img)
+			div是块级元素，它自己占一行
+			块级元素默认宽是父组元素的100%，高由内容决定
+		-->
+		<div>		
+			<img class="banner" src="img/15452109808538.jpg"  /> 
+		</div>
+		<div id="div1">
+			<img class="item" src="img/15420731471304.jpg"  />
+			<img class="item" src="img/15420731720693.jpg"  />
+			<img class="item" src="img/15420732017875.jpg"  />
+			<img class="item" src="img/15420732274447.jpg"  />
+			<img class="item" src="img/15420733032269.jpg"  /> 
+			<img class="item" src="img/15420733296928.jpg"  />
+			<img class="item" src="img/15420733666197.jpg" />
+			<img class="item" src="img/15420733912841.jpg"  />
+			<img class="item" src="img/15420734196780.jpg"  />
+			<img class="item" src="img/15420734442435.jpg"  />
+		</div>
+		<div>
+			<img class="banner" src="img/15465165117101.jpg"/>
+		</div>
+		<div id="div2">
+			<img class="item2" src="img/15465653699320.jpg"/>
+			<img class="item2" src="img/15465874743009.jpg"/>
+			<img class="item2" src="img/15465655527825.jpg" /> 
+		</div>
+		<div id="div3">
+			<div id="countdown">18点场 | 还剩<span class="cdspan">00</span>:<span class="cdspan">40</span>:<span class="cdspan">16</span></div>
+			<div id="div4">
+				<div class="div4sub">
+					<img class="item3" src="img/98dbfcb3-c0e1-4ce5-acff-50c3ec97821c.jpg" />
+					<div class="div4sub1"><div class="item3a">快抢</div><span>¥79</span></div><span class="item3a1">¥320</span>
+				</div>
+				<div class="div4sub">
+					<img class="item3" src="img/5719c343-3726-4753-b2c5-e2fdeb9fb433.jpg"  />
+					<div class="div4sub1"><div class="item3a">快抢</div><span>¥49</span></div><span class="item3a1">¥214</span>
+				</div>
+				<div class="div4sub">
+					<img class="item3" src="img/ae486de5-3a23-4af8-a962-8cc45ecc4bd2.jpg"  />
+					<div class="div4sub1"><div class="item3a">快抢</div><span>¥199</span></div><span class="item3a1">¥878</span>
+				</div>
+				<div class="div4sub">
+					<img class="item3" src="img/8f1a8568-e1d8-464b-9cbb-744c096f628f.jpg"  />
+					<div class="div4sub1"><div class="item3a">快抢</div><span>¥34</span></div><span class="item3a1">¥145</span>
+				</div>
+			</div>
+		</div>
+		<div div id="div5">
+			<div id="div5a"><img id="item4a" src="img/black(1).png"></div>
+			<div id="div5b"><img id="item4b" src="img/black(2).png"></div>
+			<div id="div5c"><img id="item4c" src="img/black.png"></div>
+		</div>
+		<div id="div6">
+			<img src="img/1542092001276.jpg"/>
+			<div id="div6sub">
+				<img src="img/ias_154608760635409_1135x545_85.jpg"/>
+				<p class="p1">
+					<span class="s1">今日大牌，紫澜门大衣羽绒羊绒新年钜惠</span><span class="s2">剩3天</span>
+				</p>
+				<p >
+					<span class="s3">0.6</span><span class="s4">折起 | 紫澜门女装，全场折上8折！</span>
+				</p>
+			</div>
+		</div>
+		<div id="div7">
+			<div id="div7sub">
+				<img src="img/ias_154649854439051_1135x545_85.jpg"/>
+				<p class="p1">
+					<span class="s1">音儿品牌专场-今日大牌</span><span class="s2">剩2天</span>
+				</p>
+				<p 
+					<span class="s3">0.5</span><span class="s4">折起 | 音儿女装，全场折上5折！</span>
+				</p>
+			</div>
+		</div>
+		<div id="div8">
+			<div id="div8sub">
+				<img src="img/ias_154650261578625_1135x545_85.jpg"/>
+				<p class="p1">
+					<span class="s1">今典品牌专场-今日大牌</span><span class="s2">剩1天</span>
+				</p>
+				<p 
+					<span class="s3">0.1</span><span class="s4">折起 | 今典女装，全场折上1折！</span>
+				</p>
+			</div>
+		</div>
+	<div id="div9a">
+		<div id="div9">
+			<p >猜你喜欢</p>
+			<div id="div9sub">
+			<div>
+				<img src="img/92236921541672724620.jpg"/>
+				<p>羽绒服</p>
+			</div>
+			<div>
+				<img src="img/4903301215752-1.jpg"/>
+				<p>护肤套装</p>
+			</div>
+			<div>
+				<img src="img/0fbd4c38-f36f-4097-8c5f-be0175337ef9.jpg"/>
+				<p>家清百货</p>
+			</div>
+			<div>
+				<img src="img/1a4f0d1b-298d-4ee0-9d14-e8fdad4d73d4.jpg"/>
+				<p>短靴</p>
+			</div>
+			<div>
+				<img src="img/64805045-33ef-4c01-a4db-41c3e8c31faa.jpg"/>
+				<p>休闲裤</p>
+			</div>
+			<div>
+				<img src="img/338431821540544001350.jpg"/>
+				<p>运动鞋</p>
+			</div>
+			<div>
+				<img src="img/00c43e03-c73f-46d9-b3e1-e3bb1885ec47.jpg"/>
+				<p>面膜</p>
+			</div>
+			<div>
+				<img src="img/73945444-562d-46dc-8530-79be2da16985.jpg"/>
+				<p>牛仔裤</p>
+			</div>
+			<div>
+				<img src="img/u=617042860,698845675&fm=26&gp=0.jpg"/>
+				<p>棉拖鞋</p>
+			</div>
+											
+			</div>
+		</div>
+	</div>
+	</body>
+</html>
